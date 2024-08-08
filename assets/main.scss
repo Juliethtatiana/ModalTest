@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "primeicons/primeicons.css";
+
+.p-button.btn{
+    @apply tw-bg-yellow tw-text-white tw-border-none tw-px-10;
+}
+.p-button.transparent-btn{
+    background-color: transparent;
+    @apply  tw-text-yellow tw-border-none;
+}
+
+.p-inputtext.general-input{
+ @apply tw-text-blue ;
+}
+.error{
+    color:#ff3333;
+}
+
+.p-message-content{
+    @apply tw-border-t-8 tw-rounded-md tw-flex tw-justify-center ; 
+}
+
