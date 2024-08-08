@@ -1,6 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Prueba tecnica Frontend developer
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Esta prueba tecnica fue desarrollada en Nuxt3 con uso de librerias tales como:
+* Primevue
+* Tailwind
+* Pinia
+
+Adicionalmente cabe resaltar que se utilizo para la conexion con el api el método "useFetch", esto debido a que axios no se encuentra soportado para las versiones recientes de nuxt.
+
+En la conexion con el api resulto en un codigo 302, y una respuesta de content "type text/html; charset=UTF-8" asi que se simularon los casos de respuesta para continuar con el desarrolllo de la prueba
+
+Demo de la prueba se encuentra en: https://modaltestamapola.netlify.app/
+
 
 ## Setup
 
@@ -10,14 +20,6 @@ Make sure to install the dependencies:
 # npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -28,14 +30,6 @@ Start the development server on `http://localhost:3000`:
 # npm
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -46,30 +40,9 @@ Build the application for production:
 # npm
 npm run build
 
-# pnpm
-pnpm run build
 
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
